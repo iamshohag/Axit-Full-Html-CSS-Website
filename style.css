@@ -1,0 +1,832 @@
+    /* font family below 
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Raleway', sans-serif; */
+
+    /* header part start */
+
+    .header {
+        background-color: #000;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999999;
+    }
+
+    .mid {
+        width: 80%;
+        margin: auto;
+    }
+
+    .header:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .logo {
+        width: 30%;
+        float: left;
+    }
+
+    .menu {
+        width: 70%;
+        float: left;
+    }
+
+    /* .menu-res {
+        display: none;
+    }
+
+    .menu-res a {
+        font-size: 1.5rem;
+        color: #fff;
+        text-align: left;
+    }
+
+    .menu-res a i {
+        margin-left: 1.25rem;
+        color: #fff;
+    } */
+    .toggle-bar {
+        width: 20%;
+        float: left;
+        display:none;
+
+    }
+    .toggle-bar i {
+        color: #fff;
+        font-size: 1.25rem;
+        padding: 0.625rem 1.25rem;
+        background-color: #FD8A37;
+        margin-top: 0.3125rem;
+    }
+    
+
+    .logo img {
+        margin-top: 0.9375rem;
+    }
+
+    .menu-bar {
+        width: 80%;
+        display: inline-block;
+        float: left;
+    }
+
+    .menu ul {
+        text-align: right;
+
+
+    }
+
+    .menu ul li {
+        display: inline-block;
+        padding: 0.3125rem;
+        
+    }
+    .menu ul li:first-child a {
+       background-color: #FD8A37;
+
+    }
+
+    .menu ul li a {
+        color: #fff;
+        font-size: 1.25rem;
+        padding: 0.625rem 1.25rem;
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+
+    }
+
+
+    .menu ul li:hover a{
+        background-color: #FD8A37;
+    }
+
+    /* header part end */
+
+    /* display part start */
+
+    .display {
+        background-image: url('images/background.jpg');
+        background-position: center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 50rem;
+        overflow: hidden;
+    }
+
+    .display:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .blur {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .5);
+        overflow: hidden;
+    }
+
+    .blur:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .display-left {
+        width: 50%;
+        float: left;
+        margin-top: 6.25rem;
+        overflow: hidden;
+    }
+
+    .display-left h2 {
+        font-size: 3.125rem;
+        width: 90%;
+        text-align: left;
+        color: #fff;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        margin-top: 1.5625rem;
+        margin-bottom: 1.5625rem;
+    }
+
+    .display-left hr {
+        width: 20%;
+        color: #fff;
+        border-bottom: 0.25rem solid;
+    }
+
+    .display-left p {
+        color: #c2bdbd;
+        font-size: 1.125rem;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+        width: 70%;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+        line-height: 30px;
+    }
+
+    .display-left a {
+        display: inline-block;
+        color: #fff;
+        padding: 0.9375rem 1.5625rem;
+        border: 0.1875rem solid #fff;
+        font-size: 1.125rem;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+
+    }
+
+    .display-right {
+        width: 50%;
+        float: left;
+        margin-top: 6.25rem;
+        overflow: hidden;
+
+    }
+
+    .form {
+        width: 60%;
+        height: 30rem;
+        display: block;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 0.625rem;
+        overflow: hidden;
+    }
+
+    /* form {
+	box-shadow: 5px 5px 20px #868c8999;
+	height: 100%;
+	width: 100%;
+} */
+    .form h2 {
+        color: #333333;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f5f5f5;
+        padding: 2.23125rem;
+        text-align: center;
+    }
+
+    .form h2 span {
+        color: #ff9b51;
+        text-transform: uppercase;
+    }
+
+    .form input {
+        width: 80%;
+        margin: 3.3125rem auto;
+        display: block;
+        box-sizing: border-box;
+        padding: 0rem 1.25rem;
+        border: none;
+        border-bottom: 0.0625rem solid;
+
+    }
+
+    .form input:last-child {
+        border: none;
+        text-align: center;
+        color: #fff;
+        background-color: #ff9b51;
+        width: 100%;
+        font-size: 1.5rem;
+        display: block;
+        padding: 2.3125rem 0rem;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    /* display part end */
+
+    /* sevice area start */
+    .service-area {
+        margin-bottom: 6.25rem;
+    }
+
+    .service-area:after {
+        content: '';
+        display: block;
+        clear: both;
+
+    }
+
+    .service-area h2 {
+        color: #000;
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 6.25rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .service-area hr {
+        width: 5%;
+        border: none;
+        border-bottom: 0.1875rem solid #ff9b51;
+        display: block;
+        margin: 1.25rem auto;
+    }
+
+    .service-area p {
+        text-align: center;
+        font-size: 0.875rem;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .service-box {
+        width: 33.33%;
+        float: left;
+    }
+
+    .service-image {
+        width: 6.25rem;
+        height: 6.25rem;
+        display: block;
+        margin: 6.25rem auto;
+        border-radius: 50%;
+        border: 0.125rem solid #ff9b51;
+        position: relative;
+    }
+
+    .service-image:hover {
+        background-color: #000;
+        border: 0.125rem solid transparent;
+    }
+
+    .service-image img {
+        position: absolute;
+        top: 0rem;
+        bottom: 0rem;
+        left: 0rem;
+        right: 0rem;
+        margin: auto;
+    }
+
+    .service-box h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+        color: #000;
+        margin: 1.875rem 0rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .service-box p {
+        width: 70%;
+        display: block;
+        margin: 0.625rem auto;
+        color: #000;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+
+    /* sevice area end */
+
+    /* pricing part start */
+    .pricing {
+        background-color: #F5F5F5;
+        text-align: center;
+    }
+
+    .pricing:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .pricing h2 {
+        color: #000;
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-family: 'Raleway', sans-serif;
+        padding-top: 6.25rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .pricing hr {
+        width: 5%;
+        border: none;
+        border-bottom: 0.1875rem solid #ff9b51;
+        display: block;
+        margin: 1.25rem auto;
+    }
+
+    .pricing p {
+        text-align: center;
+        font-size: 0.875rem;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .table {
+        width: 30%;
+        display: inline-block;
+        margin-top: 6.25rem;
+        overflow: hidden;
+        padding: 0rem 0.625rem;
+        position: relative;
+        margin-bottom: 12.5rem;
+    }
+
+    .table h2 {
+        background-color: #333;
+        color: #fff;
+        font-size: 1.875rem;
+        font-family: 'Open Sans', sans-serif;
+        padding: 1.25rem;
+        border-bottom: 1px solid #fff;
+
+    }
+
+    .table h3 {
+        background-color: #333;
+        color: #fff;
+        font-size: 1.875rem;
+        height: 12.5rem;
+        font-family: 'Open Sans', sans-serif;
+        padding: 1.25rem 0rem;
+        border-bottom: 1.25rem solid #ff9b51;
+        transition: 1s;
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    .table h3 a {
+        color: #fff;
+        font-size: 1.875rem;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .table h3 a span {
+        font-size: 3.125rem;
+        color: #fff;
+    }
+
+    .box {
+        width: 100%;
+        height: 4.375rem;
+        background-color: #ff9b51;
+        position: absolute;
+        top: 15rem0rem;
+        bottom: 0rem;
+        right: 0rem;
+        left: 0rem;
+        transition: 1s;
+
+    }
+
+    .box i {
+        padding: 1.25rem 0rem;
+    }
+
+    .table h3:hover .box {
+        top: 10.625rem;
+    }
+
+    .table ul li {
+        padding: 1.875rem 0rem;
+        border-bottom: 0.0625rem solid #A4A5A8;
+        background-color: #fff;
+        transition: .5s;
+    }
+
+    .table ul li a {
+        color: #333;
+        font-size: 1.25rem;
+        font-weight: 200;
+        font-family: 'Open Sans', sans-serif;
+
+
+    }
+
+    .table ul li:hover {
+        transform: scale(1.5);
+        z-index: 999;
+    }
+
+
+
+
+
+
+
+    /* pricing part end */
+
+    /* customer review section  start */
+
+    .customer-review-top h2 {
+        color: #000;
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 6.25rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .customer-review-top hr {
+        width: 5%;
+        border: none;
+        border-bottom: 0.1875rem solid #ff9b51;
+        display: block;
+        margin: 1.25rem auto;
+    }
+
+    .customer-review-top p {
+        text-align: center;
+        font-size: 0.875rem;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .customer-review-bottom {
+        text-align: center;
+    }
+
+    .review-bottom-left,
+    .review-bottom-right,
+    .review-bottom-mid {
+        width: 33.33%;
+        float: left;
+    }
+
+    .review-content p {
+        font-size: 0.875rem;
+        font-weight: 300;
+        color: #86878B;
+        font-family: 'Open Sans', sans-serif;
+        width: 50%;
+        display: inline-block;
+        text-align: center;
+        margin-top: 3.125rem;
+        margin-bottom: 1.875rem;
+        background-color: #F5F5F5;
+        padding: 1.25rem 1.875rem;
+        position: relative;
+
+    }
+
+    .review-content p:after {
+        content: '';
+        display: block;
+
+        width: 0rem;
+        height: 0rem;
+
+        border-top: 1.25rem solid #F5F5F5;
+        border-left: 1.25rem solid transparent;
+        border-right: 1.25rem solid transparent;
+
+        position: absolute;
+        top: 7rem;
+        left: 8.4375rem;
+    }
+
+    .review-info {
+        margin-bottom: 6.25rem;
+    }
+
+    .review-info h2 {
+        margin-top: 1.25rem;
+        margin-bottom: 0.625rem;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #86878B;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+
+
+
+    /* customer review end */
+
+    /* map area start */
+
+    .map iframe {
+        margin: 0rem;
+        padding: 0rem;
+        border: none;
+    }
+
+    /* map area end */
+
+    /* tab area start */
+
+    .tab-area {
+        background-color: #f5f5f5;
+        overflow: hidden;
+    }
+
+    .tab-area:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .tab-area-left {
+        width: 10%;
+        float: left;
+        display: block;
+        margin-top: 6.25rem;
+        margin-bottom: 6.25rem;
+    }
+
+    .tab-area-middle {
+        width: 50%;
+        float: left;
+        display: block;
+        margin-top: 6.25rem;
+        margin-bottom: 6.25rem;
+    }
+
+    .tab-area-right {
+        width: 30%;
+        float: left;
+        display: block;
+        margin-top: 6.25rem;
+        margin-bottom: 6.25rem;
+    }
+
+    .tab {
+        display: block;
+        margin-top: 6.25rem;
+        margin-bottom: 6.25rem;
+
+
+
+    }
+
+    .tab a {
+        font-size: 1.75rem;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        color: #fff;
+        background-color: #333333;
+        padding: 2.875rem 1.375rem;
+        border-radius: 0.3125rem;
+
+    }
+
+    .tab a:hover {
+        background-color: #ff6c00;
+
+    }
+
+    .tab-area-middle h2 {
+        padding-top: 2.9375rem;
+        color: #000;
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        margin-left: 6.25rem;
+    }
+
+    .tab-area-middle h3 {
+        margin-top: 1.25rem;
+        margin-bottom: 0.625rem;
+
+        display: block;
+        font-size: 0.875rem;
+        font-weight: 300;
+        color: #86878B;
+        font-family: 'Open Sans', sans-serif;
+        width: 50%;
+        line-height: 1.75rem;
+        margin-left: 6.25rem;
+
+    }
+
+    .tab-area-middle p {
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+
+        display: block;
+        font-size: 0.875rem;
+        font-weight: 300;
+        color: #86878B;
+        font-family: 'Open Sans', sans-serif;
+        width: 50%;
+        line-height: 1.75rem;
+        margin-left: 6.25rem;
+
+    }
+
+    .tab-area-middle a {
+        color: #fff;
+        background-color: #333333;
+        font-size: 1.5rem;
+        margin-left: 6.25rem;
+        padding: 0.625rem 1.25rem;
+        border-radius: 0.3125rem;
+    }
+
+    .tab-area-middle a:hover {
+        background-color: #ff6c00;
+    }
+
+    .tab-area-right img {
+        margin-top: 7.9375rem;
+    }
+
+
+
+
+    /* tab area end */
+
+    /* contact us part start */
+    .contact-us {
+        margin-bottom: 6.25rem;
+    }
+
+    .contact-mid:after {
+        content: '';
+        display: block;
+        clear: both;
+
+    }
+
+    .contact-up h2 {
+        color: #000;
+        font-size: 2.5rem;
+        font-weight: 400;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 6.25rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .contact-up hr {
+        width: 5%;
+        border: none;
+        border-bottom: 0.1875rem solid #ff9b51;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .contact-up p {
+        text-align: center;
+        font-size: 0.875rem;
+        font-weight: 300;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 3.125rem;
+
+    }
+
+    .input-section,
+    .message-section {
+        width: 50%;
+        float: left;
+        margin: 3.125rem auto;
+    }
+
+    .input-section input {
+        display: block;
+        margin-left: 12.5rem;
+        margin-top: 2.5rem;
+        border: none;
+        border-bottom: 0.0625rem solid #DADADA;
+        width: 80%;
+        box-sizing: border-box;
+
+    }
+
+    .message-section p {
+        margin-left: 9.375rem;
+        margin-top: 2.5rem;
+        display: block;
+        color: #999;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .message-section textarea {
+        margin-left: 9.375rem;
+        margin-top: 0.59375rem;
+        display: block;
+        width: 70%;
+        height: 6.8125rem;
+        border: none;
+        border-bottom: 0.0625rem solid #DADADA;
+    }
+
+    .contact-bottom input {
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 500;
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        background-color: #ff6c00;
+        padding: 0.625rem 2.5rem;
+        display: block;
+        margin: 1.25rem auto;
+        border: 0.0625rem solid #ff6c00;
+        border-radius: 0.3125rem;
+        cursor: pointer;
+    }
+
+
+
+    /* contact us part end */
+
+    /* footer area start */
+    .footer {
+        background-color: #000;
+    }
+
+    .footer ul {
+        text-align: center;
+    }
+
+    .footer ul li {
+        display: inline-block;
+        padding: 1.875rem 1.25rem;
+    }
+
+    .footer ul li a {
+        color: #CCCCCC;
+        font-size: 1.875rem;
+
+    }
+
+    .footer ul li:hover a i {
+        color: #ff6c00;
+    }
+
+    .copy-right p {
+        color: #CCCCCC;
+        font-size: 0.875rem;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        padding-bottom: 1.25rem;
+    }
+
+
+    /* footer area end */
